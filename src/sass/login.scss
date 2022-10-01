@@ -1,0 +1,15 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+.login-container {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 95%;
+}
+
+@include media-breakpoint-up(xl) {
+  .login-container {
+    width: 50%;
+  }
+}

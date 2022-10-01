@@ -1,0 +1,8 @@
+@import "~bootstrap/scss/bootstrap";
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+.errored {
+  border: 1px solid $danger;
+}
